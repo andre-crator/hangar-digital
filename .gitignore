@@ -1,0 +1,16 @@
+# Dependências
+node_modules/
+
+# Resultados de testes e builds
+coverage/
+dist/
+
+# Segredos e arquivos locais: nunca vão para o repositório
+.env
+.env.*
+
+# Sistema e editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json

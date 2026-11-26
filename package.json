@@ -1,0 +1,13 @@
+{
+  "name": "hangar-digital",
+  "version": "1.0.0",
+  "description": "Controle de vencimentos de inspeções de manutenção aeronáutica (estágio simulado).",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
