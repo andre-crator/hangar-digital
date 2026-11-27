@@ -1,7 +1,7 @@
 export function situacao(dias) {
   // se dias for menor que 0, devolve "vencida"
   if (dias < 0) {
-    return "urgente";
+    return "vencida";
   }
 
   // senão, se dias for menor ou igual ao limite urgente, devolve "urgente"
@@ -15,8 +15,7 @@ export function situacao(dias) {
     }
 
   // senão, devolve "em dia"
-  if (dias <= 31) {
     return "em dia";
   }
-}
+
 
